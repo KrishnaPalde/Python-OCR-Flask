@@ -36,7 +36,6 @@ def output():
     img = cv2.imread(FileName)
     gimg = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     gimg = cv2.threshold(gimg, 0, 255, cv2.THRESH_BINARY | cv2.THRESH_OTSU)[1]
-    cv2.imwrite("try.jpg", gimg)
     out_below = pytesseract.image_to_string(gimg)
     # out_below = out_below[::-1]
     extractedText['content'] = out_below
