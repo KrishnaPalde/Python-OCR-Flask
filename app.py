@@ -1,7 +1,7 @@
 from flask import *
 from werkzeug.utils import secure_filename
 import pytesseract
-import pyperclip
+#import pyperclip
 import re
 import cv2
 
@@ -43,5 +43,5 @@ def output():
 
 @app.route("/copytoclipboard")
 def copytoclipboard():
-    pyperclip.copy(extractedText['content'])
+    #pyperclip.copy(extractedText['content'])
     return render_template('output.html', extractedText = extractedText)
