@@ -1,51 +1,51 @@
-# Travel-Buddy
-Version: 12.16
+# Optical Character Recognition
+Version: 1.3
 Copyright to Krishna Palde
 
  INTRODUCTION
 ---------------
 
-Travel Buddy, a travel companion, but not in this case. Travel Buddy referes to an application which helps you plan your itinerary. 
+Optical Character Recognition (OCR) 
+
+In other words, OCR systems transform a two-dimensional image of text, that could contain machine printed or handwritten text from its image representation into machine-readable text. OCR as a process generally consists of several sub-processes to perform as accurately as possible. The subprocesses are:
+
+- Preprocessing of the Image
+- Text Localization
+- Character Segmentation
+- Character Recognition
+- Post Processing
 
 
  Technology Stack
 --------------------
-1. Visual Basic (.Net)
-2. Bunifu UI Development Framework for VB.Net
-3. MySQL Database
+1. Python
+2. Flask
+3. PyTessaract
 
 
  SCREENSHOTS
 ---------------
 
-1. Boot Screen
+1. Home Screen
 
-![Screenshot (488)](https://user-images.githubusercontent.com/81459485/159977249-9ab1f11d-a697-47f5-a2ed-848546f6a114.png)
+<img width="1440" alt="Screenshot 2022-06-14 at 1 57 59 PM" src="https://user-images.githubusercontent.com/81459485/173533113-21f7a3a3-ff36-4e57-8c5b-2eed3eac2577.png">
 
-2. User Login Screen
 
-![Screenshot (495)](https://user-images.githubusercontent.com/81459485/159977663-ca3383c7-a219-4027-aa36-b703c5cb295c.png)
+2. Upload File
 
-3. Register New User Screen
+<img width="1440" alt="Screenshot 2022-06-14 at 1 58 38 PM" src="https://user-images.githubusercontent.com/81459485/173533181-8d142a4b-6ae7-49e9-8691-68bd23948cd8.png">
 
-![Screenshot (496)](https://user-images.githubusercontent.com/81459485/159977735-f242f74a-4773-4c17-9ba2-e2e4cbb1d8f5.png)
 
-4. Home Screen / Build Itinerary Screen
+3. Extracting Text from Image
 
-![Screenshot (490)](https://user-images.githubusercontent.com/81459485/159977335-07c8d249-d58c-4043-a83d-836f4c108592.png)
+<img width="1440" alt="Screenshot 2022-06-14 at 1 58 43 PM" src="https://user-images.githubusercontent.com/81459485/173533282-19efe637-c80c-4702-8e8e-cd8fc32b1f6e.png">
 
-5. Building Itinerary Screen
 
-![Screenshot (491)](https://user-images.githubusercontent.com/81459485/159977386-6017e80c-0a2a-4127-b79c-03e21c09da93.png)
+4. Extracted Text
 
-6. Itinerary Screen
+<img width="1440" alt="Screenshot 2022-06-14 at 1 59 24 PM" src="https://user-images.githubusercontent.com/81459485/173533338-cb52aebd-9590-4094-b9b9-7588280982ee.png">
 
-![Screenshot (492)](https://user-images.githubusercontent.com/81459485/159977457-a56225cc-7547-4fde-9b81-0569ceffce38.png)
 
-7. Explore Tab
+5. Copy Text to clipboard
 
-![Screenshot (493)](https://user-images.githubusercontent.com/81459485/159977491-f8be3653-9ae7-4d25-83eb-d7960316298a.png)
-
-8. Explore Tab - Single Location Details Screen
-
-![Screenshot (494)](https://user-images.githubusercontent.com/81459485/159977549-8dc16975-bc2b-4e26-b0f3-161ae2b77eb5.png)
+<img width="1440" alt="Screenshot 2022-06-14 at 1 59 28 PM" src="https://user-images.githubusercontent.com/81459485/173533417-bf7b8301-3bdc-498c-bd11-58c1850984d5.png">
